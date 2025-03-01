@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supapong</title>
+    <script src="lib/p5.js"></script>
+    <script src="utils.js"></script>
+    <script src="Ball.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            SUPAPONG!
+        </h1>
+    </header>
+    <main></main>
+    <footer>
+        <p>
+            Supapong by royalduck (<a href="https://github.com/Royal-Duck" target="_blank">https://github.com/Royal-Duck</a>) distributed under the liscence CC-BY4.0.<br>
+            You may distribute and modify the app and code according to you likings as long as you credit me using the github link present just over.<br>
+            Have fun with the game and the code.<br>
+            (commercial use is possible and I don't have control over it however if you make the game a paid product send me a link, I will happily check what you've done).
+        </p>
+    </footer>
+</body>
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        height: 70vh;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        height: 20vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        background-color: grey;
+        border-top-width: 5px;
+        border-top-style: solid;
+        font-size: 1rem;
+    }
+
+    footer p {
+        margin-left: 1vw;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:visited {
+        color: darkgray;
+    }
+    
+    body {
+        height: 100vh;
+        background-color: darkslategrey;
+    }
+</style>
